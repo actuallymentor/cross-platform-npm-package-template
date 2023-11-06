@@ -1,6 +1,7 @@
 {
   "name": "xplatform-npm-package",
   "version": "0.0.1",
+  "private": false,
   "description": "This is a template repository for the creation of new npm packages",
   "main": "./src/index.js",
   "browser": "./dist/browser/index.js",

@@ -13,6 +13,7 @@ This repository also assumed you will be publishing new versions through Github 
 1. Generate an npm access token [here](https://www.npmjs.com/settings/YOUR_USERNAME/tokens)
     - ideally use a granular access token that has read/write only to the package you are creating
     - granular access tokens _expire_, so make sure you keep that in account (hopefully npm optioanlly changes this soon)
+    - granular access tokens require at least one manual publish, to do this locally run (assuming it is a public package) `npm run build && npm config set access public && npm publish`
 2. Add it as a Github Actions secret with the name `NPM_ACCESS_TOKEN`
 3. New versions are deployed when you push code with a new `version` in `package.json`
     - It's recommended to use strict [Semver](https://semver.org/) for this
