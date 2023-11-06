@@ -10,7 +10,7 @@ This repository also assumed you will be publishing new versions through Github 
 
 ## One-time setup
 
-1. Generate an npm access token [here](https://www.npmjs.com/settings/actuallymentor/tokens)
+1. Generate an npm access token [here](https://www.npmjs.com/settings/YOUR_USERNAME/tokens)
     - ideally use a granular access token that has read/write only to the package you are creating
     - granular access tokens _expire_, so make sure you keep that in account (hopefully npm optioanlly changes this soon)
 2. Add it as a Github Actions secret with the name `NPM_ACCESS_TOKEN`

@@ -30,8 +30,5 @@
     "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.3",
     "yalc": "^1.0.0-pre.53"
-  },
-  "dependencies": {
-    "xplatform-npm-package": "file:.yalc/xplatform-npm-package"
   }
 }
