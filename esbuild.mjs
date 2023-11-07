@@ -60,7 +60,7 @@ if( pck.exports.node.import ) {
 }
 
 // CSJ node bundled version
-// relevant for node.js environments without a bundler
+// relevant for node.js environments without a bundler and no ESM support
 if( pck.exports.node.require ) { 
     console.log( `Building node CJS bundle ${ node_lts_version }` )
     await esbuild.build( {

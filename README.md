@@ -48,3 +48,8 @@ If you want to deploy a new version without pushing code to Github, add your acc
 You might have other assumptions than I did when creating this template. Chief among them, consider:
 
 1. Whether the `esbuild.mjs` settings make sense for your project
+
+## Inspirations for this package
+
+- [Publish, ship, and install modern JavaScript for faster applications](https://web.dev/articles/publish-modern-javascript)
+- [frehner/modern-guide-to-packaging-js-library](https://github.com/frehner/modern-guide-to-packaging-js-library)
